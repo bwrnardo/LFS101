@@ -14,6 +14,7 @@
 - Keeps track of the date and time even when the power is off
 - most common boot loaders are `GRUB` and `ISOLINUX`
 - Responsible for loading the kernel image and the initial RAM disk or filesystem
+- Responsible for launching Linux
 
 ![alt text](image-1.png)
 
