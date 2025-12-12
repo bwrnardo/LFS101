@@ -8,6 +8,7 @@
 
 - Starts at `/sbin/init`
 - Responsible for keeping the system running and shutting it down
+- Resonsible for starting system and network services at boot time
 - Act when necessary as a manager for all non-kernel process
 - Cleans itself after completion
 
@@ -38,4 +39,3 @@
         ```bash
         $ sudo systemctl status httpd.service
         ```
-        
