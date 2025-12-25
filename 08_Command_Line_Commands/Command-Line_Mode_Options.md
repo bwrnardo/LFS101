@@ -60,5 +60,5 @@ $ sudo telenit 3
 - And restarted with:
 ```bash
 $ sudo systemctl start gdm
-sudo telenit 5
+$ sudo telenit 5
 ```
