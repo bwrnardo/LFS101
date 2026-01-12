@@ -16,7 +16,6 @@
     - The kernel
 
 - Present on all distributions
-- **man** is abreviation for manual
 
 # **man**
  
@@ -30,8 +29,58 @@
 
 - The man pages are numbered 1 through 9
 - A letter is appended to the chapter number to identify a specific topic
-- With the -a parameter, man will display all pages with the given name in all chapters, one after the other, as in:
+- With the `-a` parameter, man will display all pages with the given name in all chapters, one after the other, as in:
 ```bash
 $ man -a socket
 ``` 
     
+# GNU Info
+
+- The GNU project alternative to **man**
+- `info` works like `man`, but topics are connected using links
+- View help for a topic typing `info <topic name>`
+    - The system then searches for the topic in all available `info` files
+    - `q` to quit, `h` for help, `Enter` to select a menu item
+
+## **info** Page Structure
+
+- The topic which you view in an info page is called a node.
+- Items function like browser links are identified by and asterisk `*`
+- Named items are identified with double-colon (::)
+
+| Key | Function  
+| :--- | :--- 
+| n | Go to the next node 
+| p | Go to the previous node 
+| u | Move one node up in the index 
+
+# The `--help` option
+
+- Help gives a short description of the command
+
+```bash
+$ man --help
+```
+
+- Useful as a quick reference 
+- Displays information faster
+
+# Other Documentation Sources
+
+- Desktop help system
+- Package documentation
+- Online resources
+
+![Other Documentation Sources](image-1.png)
+
+- There are also graphical help systems
+- Such as: 
+    - GNOME: `gnome-help` or `yelp`
+    - KDE: `khelpcenter`
+
+- Online Resources:    
+    * [Ubuntu Documentation](http://help.ubuntu.com/)
+    * [CentOS Documentation](https://docs.centos.org/)
+    * [openSUSE Documentation](https://doc.opensuse.org/)
+    * [Gentoo Documentation](https://www.gentoo.org/support/documentation/)
+    * [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
