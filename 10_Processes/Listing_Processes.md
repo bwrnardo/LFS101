@@ -16,7 +16,7 @@
     - Threads are displayed in curly braces
     - Repeated entries are not displayed
 
-# top
+# **top**
 
 - `top` gives constant real-time updates of the processes
     - Every two seconds by default
@@ -80,3 +80,39 @@
     - `atop`, `btop` and `htop`:
 
 ![top, atop, btop and htop](image-5.png)
+
+# Scheduling Future Process Using **at**
+
+- `at` will execute non-interactive commands *at* a specified time
+```bash
+at now + 2 days
+```
+- Schedules the `now` command 2 days from now
+
+# **cron**
+
+- `cron` can launch routine background jobs
+    - is driven by `/etc/crontab` (cron table)
+- Each line of a `crontab` file represents a job, and is composed of a `CRON` expression
+- `crontab -e` will open the crontab editor
+
+![Fields, Description, Values](image-6.png)
+
+- The entry ` * * * * * /usr/local/bin/execute/this/script.sh` will schedule `script.sh` every minute of every hour of every day of the month, and every month and every day in the week 
+- `30 08 10 06 * /home/sysadmin/full-backup` will schedule a full-backup at 8.30 a.m., 10-June, irrespective of the day of the week.
+
+# **anacron**
+
+- Different from `cron`, `anacron` doesn't assume that the machine is always running
+- `anacron` will run the jobs in a controlled state
+    - `/etc/anacrontab`
+
+# **sleep**
+
+- `sleeps` suspends or delays the execution until a given time
+- used to queue commands and jobs
+    - `sleep NUMBER[SUFFIX]...`
+        - `s` for seconds (the default)
+        - `m` for minutes
+        - `h` for hours
+        - `d` for days.
