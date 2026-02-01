@@ -14,6 +14,6 @@
 
 - Typing `vimtutor` gives a very extense tutorial on how to use `vim`
 
-### `vi` Documentation
+## `vi` Documentation
 
 - Documentation for the commands in `vi` [here](Commands_for_vi.pdf)
