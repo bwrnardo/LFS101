@@ -16,4 +16,16 @@
 
 ## `vi` Documentation
 
-- Documentation for the commands in `vi` [here](Commands_for_vi.pdf)
+- Documentation for the commands in `vi`:
+    - [Vi Documentation](Commands_for_vi.pdf)
+
+## Introduction to `emacs`
+
+- `emacs` is highly customizable and includes a number of features
+- Can be used for email, debugging, etc...
+- Uses the **CTRL** and Meta (**Alt** or **Esc**) for special commands
+
+## `emacs` Documentation 
+
+- Documentations for the commands in `emacs`:
+    - [Emacs Documentation](Commands_for_emacs.pdf)
