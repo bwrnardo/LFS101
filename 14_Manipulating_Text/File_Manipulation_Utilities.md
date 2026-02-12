@@ -61,3 +61,14 @@ $ join file1 file2
 ```bash
 $ split linux.words lwords
 ```
+
+# Regular Expressions and Search Patterns
+
+- used for matching a specific pattern or to search a specific location
+- some of the most used patterns:
+
+![serch patterns](images/image-11.png)
+
+## Using Regular expressions and Search Patterns
+
+![usage](images/image-12.png)
